@@ -1,0 +1,215 @@
+*{
+    
+    margin: auto;
+    padding: 0px;
+    
+    
+    
+
+}
+body{
+    background-color: #CCC;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 1200px;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+
+
+    
+
+}
+header{
+   width: 1200px;
+    
+    
+
+}
+#nav1
+{
+    background-color: #008744;
+    padding: 0px;
+    border-radius: 1px solid white;
+    border:4px;
+    color: white;
+    height: 30px;
+
+}
+
+#nav1>ul
+{
+    float: right;
+    list-style: none;
+    padding:5px;
+}
+#nav1>ul>li
+{
+    float: right;
+   
+}
+#nav1>ul>li>a
+{
+    padding: 5px;
+    padding-right: 11px;
+   text-decoration: none;
+   color: white;
+}
+
+
+header div#logo5{
+    background-color: #008744;
+    border: 1px solid #008744;
+    border-color: rgba(255,255,255,0.2);
+    padding: 11px;
+
+}
+
+ header div#logo5 p 
+ {
+    
+    font-size: 30px;
+    color: white;
+    display: inline;
+    
+ }
+article img
+{
+    width: 100%
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 500px;
+    max-width: 1200px;
+    background-color: white;
+   display: inline-block;
+   margin-top: 500px;
+    
+}
+
+footer div#footer_img{
+     padding-top: -60px;
+     float: left;
+     margin-bottom: 10px;
+     margin-left: 20px;
+
+}
+#img2,#img3
+{
+    margin-left: 127px;
+}
+#img4
+{
+    margin-top: 5px;
+    float:right;
+    margin-right: 17px;
+}
+footer div#footer_list1{
+
+    float:left;
+    margin-left: 20px;
+
+}
+
+footer div#footer_list1>ul{
+
+    list-style: none;
+
+
+
+}
+footer div#footer_list1>ul>li{
+    padding-top: 5px;
+
+
+
+}
+footer div#footer_list1>ul>li a{
+    font-size: 16px;
+    color: #0f136d;
+    text-decoration: none;
+
+}
+footer div#footer_list2>ul{
+
+    float: left;
+    list-style: none;
+
+
+}
+
+footer div#footer_list2{
+    float: left;
+    margin-left: 200px;
+
+
+}
+
+
+footer div#footer_list2>ul>li{
+    padding-top: 5px;
+
+}
+footer div#footer_list2>ul>li>a{
+    font-size: 16px;
+    color: #0f136d;
+    text-decoration: none;
+
+}

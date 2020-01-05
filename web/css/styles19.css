@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    
+    margin: auto;
+    padding: 0px;
+    
+    
+    
+
+}
+body{
+    background-color: #CCC;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 1200px;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+
+
+    
+
+}
+header{
+   width: 1200px;
+    
+    
+
+}
+#nav1
+{
+    background-color: #008744;
+    padding: 0px;
+    border-radius: 1px solid white;
+    border:4px;
+    color: white;
+    height: 30px;
+
+}
+#choichoi{
+    float: left;
+    padding-left: 11px;
+}
+#nav1>ul
+{
+    float: right;
+    list-style: none;
+    padding:5px;
+}
+#nav1>ul>li
+{
+    float: right;
+   
+}
+#nav1>ul>li>a
+{
+    padding: 5px;
+    padding-right: 11px;
+   text-decoration: none;
+   color: white;
+}
+
+
+header div#logo5{
+    background-color: #008744;
+    border: 1px solid #008744;
+    border-color: rgba(255,255,255,0.2);
+    padding: 11px;
+
+}
+
+ header div#logo5 p 
+ {
+    
+    font-size: 30px;
+    color: white;
+    display: inline;
+    
+ }
+
+header div#nav1>ul>li:hover a{
+    background-color: rgb(0, 181, 91);
+}
+#logo5 form
+{
+ float: top;
+ float: right;  
+}
+input[type="text"]:focus{
+    width:500px; 
+}
+input[type="text"] {
+      width: 180px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 4px;
+      outline:none;
+      padding: 12px 14px;
+      transition:0.6s ease-in-out;
+     
+}
+input[type="text"]:focus{
+    width:500px; 
+    background-color:lightgreen;
+}
+section {
+    width: 1200px;
+    margin-top: 15px;
+
+}
+#so1{
+    width: 330px;
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 320px;
+
+}
+#so1 ul
+{
+    list-style: none;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+#so1>ul>i
+{
+   
+    color: red;
+}
+#so1>ul>li
+{
+    text-decoration: none;
+   
+}
+
+section div img
+{
+float: right;
+border-radius: 7px;
+
+}

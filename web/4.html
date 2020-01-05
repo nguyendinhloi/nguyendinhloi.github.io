@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./css/styles4.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+<script language="javascript">
+    function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if(form.user.value == "dinhloi412" && form.pass.value == "12345678")
+      {
+        window.open('1.html')/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Error Password or Username")/*displays error message*/
+      }
+    }
+</script>
+</head>
+<body background="C:/Users/PC2009/Desktop/27.12/web/img/2.jpg">
+    <div class="container">
+    <h2 id="dk1">Đăng nhập </h2>
+    <form action="/action_page.php">
+        Email: <input type="text" name="user"/>
+        <br><br>
+        Password:<input type="password" name="pass"/>
+        <br/>
+        <div align="center">
+            <input type="button" onClick="check(this.form)" value="Login"/>
+        </div>
+        <br/>
+        </form>
+ 
+        
+ 
+        
+    </form>
+</body>
+<html>

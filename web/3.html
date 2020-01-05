@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/styles3.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<script language="javascript">
+	<script language="javascript">
+		Function checkInput ()
+		  {
+
+//Kiểm tra user name:
+
+                        If ( document.flogin.name.value= =””)
+
+               {
+
+                        Alert( “invalidEmail, Vui lòng nhập địa chỉ Email của bạn:”);
+
+                        document.flogin.name.focus( );
+
+                        return false;
+
+               }
+
+//Kiểm tra password
+
+                        If ( document.flogin.email.value= =””)
+
+               {
+
+                        Alert( “ Vui lòng nhập password của bạn vào:”);
+
+                        document.flogin.email.focus( );
+
+                        return false;
+
+               }
+
+                        If ( document.flogin.phone.value= =””)
+
+               {
+
+                        Alert( “ Vui lòng nhập password của bạn vào:”);
+
+                        document.flogin.phone.focus( );
+
+                        return false;
+
+               }
+
+
+                        If ( document.flogin.pass.value= =””)
+
+               {
+
+                        Alert( “ Vui lòng nhập password của bạn vào:”);
+
+                        document.flogin.pass.focus( );
+
+                        return false;
+
+               }
+
+               Return true;
+
+               }
+</script>
+</script>
+</head>
+<body>
+	<header>
+		
+		<div id="nav1">
+			
+			<ul>
+				<li> | <a href="#"> Mua sắm cùng chúng tôi</li>
+				<li> | <a href="#"><i class="fas fa-cart-plus"></i> Giỏ hàng</a></li>
+				<li> | <a href="#"><i class="fas fa-users-cog"></i> Đăng nhập</a></li>
+				<li><a href="#"><i class="fas fa-question-circle"></i> Trợ giúp</a></li>
+			</xul>
+			
+		</div>
+		<div>
+		<div id="logo5">
+			<p >M A R T L o a d</p>
+		
+    	</div>
+	</header>
+			
+	
+	<article>
+		<div class="container">
+    <h2>Đăng kí tài khoản để mua hàng cùng chúng tôi</h2>
+   <form name="flogin" method="post"
+action="thanhcong.php?goto=" onsubmit="return checkinput();">
+        <label for="fname">Họ Và Tên</label>
+        <input type="text" id="name" name="name" placeholder="Nhập họ và tên...">
+ 
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="Nhập email...">
+ 
+        <label for="country">Số Điện Thoại</label>
+        <input type="text" id="phone" name="phone" placeholder="Nhập số điện thoại...">
+ 
+        <label for="password">Password</label>
+        <input type="password" id="pass" name="password" placeholder="Nhập mật khẩu...">
+ 
+         <input type="button" onClick="check(this.form)" value="Login"/>
+    </form>
+</div>
+		
+	</form>
+	</article>
+	

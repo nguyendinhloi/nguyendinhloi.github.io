@@ -1,0 +1,156 @@
+
+*{
+	
+    margin: auto;
+    padding: 0px;
+	
+	
+    
+
+}
+body{
+    background-color: white;
+   
+    width: 1200px;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    background-image:url(./img/6.jpg);
+    
+
+}
+header{
+   width: 1200px;
+    
+    
+
+}
+article {
+    width: 1200px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:  10px;
+}
+
+
+
+body div#head h1
+
+{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+#head
+{
+    background: linear-gradient(DeepSkyBlue, Black);
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+}
+section 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+section div p
+{
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+ section div img 
+{
+    margin-left: 380px;
+}
+section div h2
+{
+    color: rgb(29, 0, 79);
+
+}
+
+footer{
+  
+    width: 1200px;
+    display: inline-block;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: #ccc;
+
+
+    
+}
+footer div {
+    margin-left: 2px;
+    background-color: #ccc;
+
+}
+footer div#footer_img{
+     padding-top: -60px;
+     float: left;
+     margin-bottom: 10px;
+     margin-left: 20px;
+
+}
+#img2,#img3
+{
+    margin-left: 127px;
+}
+#img4
+{
+    margin-top: 5px;
+    float:right;
+    margin-right: 17px;
+}
+footer div#footer_list1{
+
+    float:left;
+    margin-left: 20px;
+
+}
+
+footer div#footer_list1>ul{
+
+    list-style: none;
+
+
+
+}
+footer div#footer_list1>ul>li{
+    padding-top: 5px;
+
+
+
+}
+footer div#footer_list1>ul>li a{
+    font-size: 16px;
+    color: #0f136d;
+    text-decoration: none;
+
+}
+footer div#footer_list2>ul{
+
+    float: left;
+    list-style: none;
+
+
+}
+
+footer div#footer_list2{
+    float: left;
+    margin-left: 200px;
+
+
+}
+
+
+footer div#footer_list2>ul>li{
+    padding-top: 5px;
+
+}
+footer div#footer_list2>ul>li>a{
+    font-size: 16px;
+    color: #0f136d;
+    text-decoration: none;
+
+}
